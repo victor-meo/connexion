@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="connexion.css">
+    </head>
+    <body>
+        <header>
+            <h1>Meow</h1>
+            <img class="chat" src="https://i.pinimg.com/originals/6f/fa/f8/6ffaf8127b91cd14a9c53306c05d30de.png">
+            <ul id="nav">
+              <li><a class="clr" href="connexion.html">Accueil</a></li>
+              <li><a class="clr" href="connexion.html">Boutique</a></li>
+              <li><a class="clr" href="connexion.html">Nous contacter</a></li>
+          </ul>
+    </header>
+    <fieldset>
+        <legend class="top">S'inscrire :</legend>
+    <form class="demo">
+        <label for="text" class="utilisateur">Nom d'utilisateur *</label>
+        <input type="text" placeholder="Nom d'utilisateur" class="nu"/><br>
+        <label for="password" class="mdp" >Mot de passe *</label>
+        <input type="password" placeholder="Mot de passe" class="mdp2"><br>
+        <label for="password" class="confirm">Confirmez votre mot de passe *</label>
+        <input type="password" class="confirmmdp"><br>
+        <label for="email" class="email">Email *</label>
+        <input type="email" placeholder="Email" class="mail"><br>
+        <label for="radio" class="sexe">Sexe *</label>
+        <input type="radio" name="test" class="valide"/>Homme
+        <input type="radio" name="test" class="valide" />Femme<br>
+        <label for="text" class="famille">Nom *</label>
+        <input type="text" placeholder="Nom" class="nom"><br>
+        <label for="text" class="nom2">Prénom *</label>
+        <input type="texte" placeholder="Prénom" class="famille2"><br>
+        <label for="number" class="naissance">Date de naissance *</label>
+        <input type="date" class="date"><br>
+        <label type="text" class="select">Niveau d'étude *</label>
+        <select class="opt">
+            <option value="">CAP, BEP</option>
+            <option value="">Bac</option>
+            <option value="">Bac +2</option>
+            <option value="">Licence</option>
+            <option value="">Master 1</option>
+            <option value="">Master 2</option>
+            <option value="">Doctorat</option>
+        </select><br> <br>
+        <label for="phone" class="num">Numéro de téléphone</label>
+        <input type="tel" name="tel" class="tel" placeholder="par ex&nbsp;: +33 ..." required><br><br>
+        <fieldset class="set">
+            <legend class="legend">Vos centres d'intêret</legend>
+        <input type="checkbox" name="test" class="loisir"/>
+        <label for="hobbbies" class="interet">Sport</label>
+        <input type="checkbox" name="test" class="loisir"/>
+        <label for="hobbbies" class="interet">Informatique</label>
+        <input type="checkbox" name="test" class="loisir"/>
+        <label for="hobbbies" class="interet">Lecture</label>
+        <input type="checkbox" name="test" class="loisir"/>
+        <label for="hobbbies" class="interet">Cinéma</label>
+        </fieldset><br><br>
+        <label for="text" class="last">Et si vous vous présentiez?</label>
+        <textarea cols="150" rows="5" class="top"></textarea><br>
+        <a class="inscrit" href="connexion.html">S'inscrire</a>
+    </form>
+    </fieldset>
+    <footer class="der"><p class="champ">(*) Champs obligatoires</p></footer>
+    </body>
+</html>
